@@ -1,0 +1,98 @@
+#slider {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding-right: 16px !important;
+  padding-top: 24px;
+}
+.noUi-base {
+  height: 6px !important;
+  background: #f0f0f0 !important;
+}
+
+.noUi-tooltip {
+  border: none !important;
+  box-shadow: none !important;
+  top: auto !important;
+  bottom: -30px !important;
+  color: black !important;
+  font-size: 14px;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+}
+
+.noUi-target .noUi-base .noUi-connect {
+  background: black !important;
+  height: 6px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.noUi-target .noUi-base .noUi-background {
+  background: black !important;
+  height: 6px;
+}
+
+.noUi-handle::after {
+  background: black !important;
+}
+
+.noUi-target .noUi-base .noUi-origin .noUi-handle:before,
+.noUi-target .noUi-base .noUi-origin .noUi-handle:after {
+  display: none;
+}
+
+.noUi-target .noUi-base .noUi-origin .noUi-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border-color: black;
+  box-shadow: none;
+}
+
+.rotateSvg {
+  transform: rotate(0deg);
+  transition: transform 250ms linear;
+}
+
+.rotateSvg.active {
+  transform: rotate(-180deg);
+}
+
+.dropdownClrPicker,
+.dropdownSizePicker,
+.dropdownDressStyle,
+.dropdownRange {
+  overflow: hidden;
+  height: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  padding-top: 0;
+}
+
+.dropdownRange {
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.dropdownRange.active {
+  height: 84px;
+  padding-top: 24px;
+}
+
+.dropdownClrPicker.active {
+  height: 104px;
+  padding-top: 20px;
+}
+
+.dropdownSizePicker.active {
+  height: 272px;
+  padding-top: 20px;
+}
+
+.dropdownDressStyle.active {
+  height: 176px;
+  padding-top: 20px;
+}

@@ -1,0 +1,141 @@
+<header
+  class="container lg:w-[1440px] md:w-[768px] sm:w-[480px] lg:px-[100px] md:px-md xs:px-sm mx-auto xl:mt-[38px] xs:mt-[33px]"
+  id="marginTop"
+>
+  <div
+    class="w-full mx-auto flex justify-between items-center gap-[24px] sm:gap-[12px] border-b border-mainBlack-100 py-[24px] xs:py-[20px]"
+  >
+    <div class="flex justify-between items-center gap-[10px]">
+      <button
+        type="button"
+        class="lg:hidden md:hidden flex justify-between items-center px-[7px] py-[7px]"
+        id="burger"
+      >
+        <svg class="" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <a
+        href=""
+        class="lg:text-2xl md:text-xl xs:text-xl font-accentFont font-black"
+        >VOODOO.CO</a
+      >
+    </div>
+    <ul class="flex text-base gap-[10px] xs:hidden">
+      <li class="flex items-center NavLink">
+        Shop
+        <svg width="16" height="16">
+          <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+        </svg>
+      </li>
+      <li class="NavLink md:text-sm">
+        <a href="">On Sale</a>
+      </li>
+      <li class="NavLink">
+        <a href="">New Arriwals</a>
+      </li>
+      <li class="NavLink">
+        <a href="">Brands</a>
+      </li>
+    </ul>
+    <div
+      class="xl:hidden mobileMenu text-center py-[24px] px-[16px] transition-transform duration-250 ease-in-out"
+      id="mobileMenu"
+    >
+      <div class="flex items-center justify-between">
+        <button
+          type="button"
+          class="bg-mainBlack mr-auto w-[30px] h-[30px] rounded-full flex items-center justify-center"
+          id="closeMenu"
+        >
+          <svg class="fiil-black" width="20" height="20">
+            <use href="./images/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <ul class="flex items-center spec:block hidden">
+          <li
+            class="px-[7px] py-[7px] rounded-full lg:hover:bg-accentGray transition duration-300 ease-out spec:hidden"
+          >
+            <a href="" class="hover:drop-shadow-2xl cursor-pointer">
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-basket"></use>
+              </svg>
+            </a>
+          </li>
+          <li
+            class="px-[7px] py-[7px] rounded-full hover:bg-accentGray transition duration-300 ease-out spec:hidden"
+          >
+            <a href="" class="hover:drop-shadow-2xl cursor-pointer">
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-user"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="text-base">
+        <li class="mb-[10px]">
+          <div
+            class="inline text-center flex items-center justify-center NavLink"
+          >
+            Shop
+            <svg width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+            </svg>
+          </div>
+        </li>
+        <li class="NavLink mb-[10px]">
+          <a href="">On Sale</a>
+        </li>
+        <li class="NavLink mb-[10px]">
+          <a href="">New Arriwals</a>
+        </li>
+        <li class="NavLink mb-[10px]">
+          <a href="">Brands</a>
+        </li>
+      </ul>
+    </div>
+    <label
+      class="bg-transparent w-[500px] flex items-center relative xs:hidden md:hidden z-[-1]"
+    >
+      <svg class="absolute left-[16px] opacity-40" width="24" height="24">
+        <use href="./images/symbol-defs.svg#icon-search"></use>
+      </svg>
+      <input
+        class="bg-accentGray w-full px-[16px] py-[12px] pl-[52px] rounded-full caret-black md:text-sm"
+        placeholder="Search for products..."
+        type="text"
+      />
+    </label>
+    <ul class="flex items-center">
+      <li>
+        <button
+          type="button"
+          class="lg:hidden flex justify-between items-center px-[7px] py-[7px]"
+        >
+          <svg class="" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-search"></use>
+          </svg>
+        </button>
+      </li>
+      <li
+        class="px-[7px] py-[7px] rounded-full lg:hover:bg-accentGray transition duration-300 ease-out spec:hidden"
+      >
+        <a href="" class="hover:drop-shadow-2xl cursor-pointer">
+          <svg width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-basket"></use>
+          </svg>
+        </a>
+      </li>
+      <li
+        class="px-[7px] py-[7px] rounded-full hover:bg-accentGray transition duration-300 ease-out spec:hidden"
+      >
+        <a href="" class="hover:drop-shadow-2xl cursor-pointer">
+          <svg width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-user"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>

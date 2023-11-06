@@ -1,0 +1,537 @@
+<main class="w-full">
+  <div
+    class="container lg:w-[1440px] md:w-[768px] sm:w-[480px] lg:px-[100px] md:px-md xs:px-sm mx-auto"
+  >
+    <div
+      class="flex justify-start items-center gap-[12px] xl:text-base xs:text-xl xl:py-[24px] xs:pt-[20px] xs:pb=[14px]"
+    >
+      <a
+        href=""
+        class="flex justify-start items-center opacity-60 lg:hover:opacity-100"
+      >
+        Home
+        <svg class="opacity-60" width="16" height="16">
+          <use href="./images/symbol-defs.svg#icon-arrow"></use>
+        </svg>
+      </a>
+
+      <p>Casual</p>
+    </div>
+  </div>
+  <section
+    class="flex justify-between gap-[20px] pb-[80px] container lg:w-[1440px] md:w-[768px] sm:w-[480px] lg:px-[100px] md:px-md xs:px-sm lg:pb-[70px] md:pb-[50px] xs:pb-[16px] xs:pt-[14px] mx-auto"
+  >
+    <aside
+      class="lg:min-w-[295px] lg:max-w-[295px] md:w-[214px] xs:hidden px-[24px] pt-[20px] pb-[45px] xl:border xl:border-mainBlack-80 xl:rounded-[20px] h-fit"
+    >
+      <div
+        class="flex justify-between items-center pb-[24px] border-b-2 border-mainBlack-100"
+      >
+        <h3 class="font-bold font-[20px]">Filters</h3>
+        <svg class="opacity-40" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-filter"></use>
+        </svg>
+      </div>
+      <ul
+        class="flex flex-col py-[24px] border-b-2 border-mainBlack-100 gap-y-[20px]"
+      >
+        <li class="flex justify-between items-center">
+          <p class="text-black opacity-60">T-shirts</p>
+          <svg class="opacity-60" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </li>
+        <li class="flex justify-between items-center">
+          <p class="text-black opacity-60">Shorts</p>
+          <svg class="opacity-60" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </li>
+        <li class="flex justify-between items-center">
+          <p class="text-black opacity-60">Shirts</p>
+          <svg class="opacity-60" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </li>
+        <li class="flex justify-between items-center">
+          <p class="text-black opacity-60">Hoodie</p>
+          <svg class="opacity-60" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </li>
+        <li class="flex justify-between items-center">
+          <p class="text-black opacity-60">Jeans</p>
+          <svg class="opacity-60" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </li>
+      </ul>
+      <div class="pt-[24px] pb-[24px] border-b-2 border-mainBlack-100">
+        <div class="flex justify-between items-center" id="acordionItem">
+          <p class="font-bold font-[20px]">Price</p>
+          <svg class="opacity-60 rotateSvg" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+          </svg>
+        </div>
+        <div class="dropdownRange">
+          <div id="slider"></div>
+        </div>
+      </div>
+      <div class="py-[24px] border-b-2 border-mainBlack-100">
+        <div class="flex justify-between items-center" id="acordionItem">
+          <p class="font-bold font-[20px]">Color</p>
+          <svg class="opacity-60 rotateSvg" width="16" height="16" class="">
+            <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+          </svg>
+        </div>
+        <form
+          class="flex items-center flex-wrap gap-[10px] pt-[20px] dropdownClrPicker"
+        >
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#00C12B"
+              class="appearance-none checked:bg-blue-500"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#00C12B] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#F50606"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#F50606] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#F5DD06"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#F5DD06] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#F57906"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#F57906] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg class="opacity-0" width="16" height="16">
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#06CAF5"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#06CAF5] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#063AF5"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#063AF5] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#7D06F5"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#7D06F5] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#F506A4"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#F506A4] flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#FFFFFF"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-[#FFFFFF] flex justify-center items-center border border-mainBlack-20"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="rounded-full flex items-center">
+            <input
+              type="checkbox"
+              name="color"
+              id="color"
+              value="#000000"
+              class="appearance-none"
+            />
+            <div
+              class="w-[37px] h-[37px] rounded-full bg-mainBlack flex justify-center items-center border border-mainBlack-20 fill-white"
+            >
+              <svg
+                class="opacity-0 transition-opacity duration-300 ease-out"
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+            </div>
+          </label>
+        </form>
+      </div>
+      <div class="py-[24px] border-b-2 border-mainBlack-100">
+        <div class="flex justify-between items-center" id="acordionItem">
+          <p class="font-bold font-[20px]">Size</p>
+          <svg
+            class="opacity-60 rotateSvg"
+            width="16"
+            height="16"
+            id="acordionItem"
+          >
+            <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+          </svg>
+        </div>
+        <form
+          id="colorForm"
+          class="flex items-center flex-wrap gap-[8px] pt-[20px] dropdownSizePicker"
+        >
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">XX-Small</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">X-Small</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">Small</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">Medium</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">Large</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">X-Large</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">XX-Large</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">3X-Large</p>
+          </label>
+          <label
+            class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+            id="size"
+          >
+            <input
+              type="checkbox"
+              name="size"
+              id="size"
+              value="XX-Small"
+              class="appearance-none"
+            />
+            <p class="inline opacity-60" id="size">4X-Large</p>
+          </label>
+        </form>
+      </div>
+      <div class="py-[24px]">
+        <div class="flex justify-between items-center" id="acordionItem">
+          <p class="font-bold font-[20px]">Dress Style</p>
+          <svg class="opacity-60 rotateSvg" width="16" height="16">
+            <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+          </svg>
+        </div>
+        <ul class="flex flex-col pt-[20px] gap-y-[20px] dropdownDressStyle">
+          <li class="flex justify-between items-center">
+            <p class="text-black opacity-60">Casual</p>
+            <svg class="opacity-60" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </li>
+          <li class="flex justify-between items-center">
+            <p class="text-black opacity-60">Formal</p>
+            <svg class="opacity-60" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </li>
+          <li class="flex justify-between items-center">
+            <p class="text-black opacity-60">Party</p>
+            <svg class="opacity-60" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </li>
+          <li class="flex justify-between items-center">
+            <p class="text-black opacity-60">Gym</p>
+            <svg class="opacity-60" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <button
+        type="button"
+        class="py-[16px] px-[54px] md:py-[12px] md:px-0 w-full rounded-[62px] bg-mainBlack text-mainWhite font-[14px] md:font-[12px] hover:opacity-90 focus:opacity-90"
+      >
+        Apply Filter
+      </button>
+    </aside>
+    <div class="">
+      <div class="flex justify-between xl:pb-[27px] spec:flex-wrap">
+        <h3 class="xl:text-2xl xs:text-xl font-bold align-bottom leading-none">
+          Casual
+        </h3>
+        <div
+          class="inline-flex justify-center xs:justify-between items-end xs:items-center xs:w-max gap-[12px] text-blackOpacity"
+        >
+          <p class="xxs:text-[14px]">Showing 1-10 of 100 Products</p>
+          <button
+            class="hidden xs:block w-[32px] h-[32px] rounded-full bg-mainGray spec:ml-auto"
+            id="openFilterBtn"
+          >
+            <svg class="opacity-40" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-filter"></use>
+            </svg>
+          </button>
+          <div class="flex xs:hidden md:hidden">
+            <p class="flex align-bottom">
+              Sort by:
+              <span class="flex items-center gap-[4px] text-black font-black">
+                Most Popular
+                <svg class="" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-dropdown"></use>
+                </svg>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <ul
+        id="productList"
+        class="flex xl:gap-x-[20px] xl:gap-y-[20px] xs:w-full xs:gap-x-[14px] xs:gap-y-[14px] xl:pb-[33px] xs:pt-[26px] xxs:gap-0 flex-wrap mx-auto text-center border-b border-mainBlack-100"
+      ></ul>
+    </div>
+  </section>
+  <section class="BgColors xl:pb-[26px] xs:pb-[16px]">
+    <div
+      class="container lg:w-[1440px] md:w-[768px] sm:w-[480px] lg:px-[100px] md:px-md xs:px-lg:pb-[70px] md:pb-[50px] sm mx-auto"
+    >
+      <div
+        class="bg-mainBlack xl:flex lg:py-[36px] md:py-[24px] lg:px-[64px] md:px-[48px] xs:pb-[16px] xs:pt-[32px] xs:px-[24px] xs:pb-[28px] xl:justify-between xl:items-center rounded-[20px]"
+      >
+        <h2
+          class="lg:w-[550px] md:w-[352px] text-mainWhite font-accentFont lg:text-3xl md:text-xl xs:text-2xl xs:font-black font-normal lg:eading-[45px] uppercase"
+        >
+          Stay upto date about our latest offers
+        </h2>
+        <div>
+          <form>
+            <label class="relative flex items-center xs:mt-[32px] z-[1]">
+              <svg
+                class="absolute lg:left-[16px] md:left-[12px] xs:left-[12px] opacity-40 fill-mainBlack md:w-[24px] md:h-[24px] xs:w-[20px] xs:h-[20px]"
+                width="30"
+                height="30"
+              >
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              <input
+                placeholder="Enter your email address"
+                type="text"
+                class="'flex lg:w-[349px] md:w-[250px] xs:w-full lg:py-[16px] md:py-[8px] lg:pl-[52px] md:pl-[40px] lg:pr-[16px] md:pr-[12px] xs:py-[12px] xs:pl-[48px] xs:pr-[12px] lg:text-base md:text-[14px] xs:text-[14px] justify-center items-center rounded-[62px] bg-mainWhite caret-black" /></label
+            ><button
+              type="button"
+              class="lg:mt-[14px] md:mt-[12px] xs:mt-[12px] flex lg:w-[349px] md:w-[250px] xs:w-full lg:py-[12px] md:py-[8px] xs:py-[12px] items-center justify-center rounded-[62px] bg-mainWhite text-mainBlack md:text-[14px] lg:text-base outline-transparent lg:hover:bg-accentGray transition duration-300 ease-out"
+            >
+              Subscribe to Newsletter
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

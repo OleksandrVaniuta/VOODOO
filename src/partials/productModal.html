@@ -1,0 +1,307 @@
+<div
+  id="productModal"
+  class="backdrop transition-opacity duration-250 ease-in-out lg:pt-[158px] xs:px-[15px] hiddenFilter"
+>
+  <div
+    class="bg-mainWhite rounded-[30px] lg:w-[1240px] md:w-[704px] xs:w-full mx-auto relative"
+  >
+    <button
+      type="button"
+      class="bg-transparent absolute top-[25px] right-[25px] opacity-40 hover:bg-accentGray w-[28px] h-[28px] rounded-full flex items-center justify-center transition duration-250 ease-in-out"
+      id="closeProduct"
+    >
+      <svg class="fill-mainBlack" width="24" height="24">
+        <use href="./images/symbol-defs.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div
+      class="xl:flex lg:items-center lg:px-[53px] md:px-[16px] xs:px-[13px] lg:gap-[40px] md:gap-[20px] lg:pt-[92px] md:pt-[60px] xs:pt-[13px]"
+    >
+      <div class="lg:min-w-[505px] md:min-w-[315px] xs:w-full rounded-[20px]">
+        <img src="./images/imagePlaceholderBig.jpg" alt="product photo" />
+      </div>
+      <div>
+        <div class="border-b border-mainBlack-100 pb-[24px]">
+          <h2
+            class="block font-black lg:text-[40px] md:text-2xl xs:text-xl xl:mb-[14px] xs:mb-[12px]"
+          >
+            One Life Graphic T-shirt
+          </h2>
+          <div class="productItemRate xl:mb-[14px] xs:mb-[12px]">
+            <img
+              class="xl:w-[24px] xs:w-[18px]"
+              src="./images/star.png"
+              alt="star"
+            />
+            <img
+              class="xl:w-[24px] xs:w-[18px]"
+              src="./images/star.png"
+              alt="star"
+            />
+            <img
+              class="xl:w-[24px] xs:w-[18px]"
+              src="./images/star.png"
+              alt="star"
+            />
+            <img
+              class="xl:w-[24px] xs:w-[18px]"
+              src="./images/star.png"
+              alt="star"
+            />
+            <span class="productItemRateNum"
+              >4.0/<span class="text-blackOpacity">5</span></span
+            >
+          </div>
+
+          <div class="flex items-center xl:mb-[14px] xs:mb-[12px]">
+            <p class="font-black xl:text-2xl xs:text-xl pr-[5px]">$260</p>
+            <p
+              class="opacity-30 font-black xl:text-2xl xs:text-xl line-through pr-[5px]"
+            >
+              $300
+            </p>
+            <p
+              class="text-[#FF3333] xl:px-[14px] xs:px-[12px] py-[6px] xl:text-[16px] xs:text-[14px] rounded-[62px] bg-[#FF3333]/10 leading-none"
+            >
+              -40%
+            </p>
+          </div>
+          <p class="text-mainBlack/60 xs:text-[14px] xl:text-[16px]">
+            This graphic t-shirt which is perfect for any occasion. Crafted from
+            a soft and breathable fabric, it offers superior comfort and style.
+          </p>
+        </div>
+        <div class="py-[24px] border-b border-mainBlack-100">
+          <h3
+            class="xl:mb-[15px] xs:mb-[12px] text-mainBlack/60 xs:text-[14px] xl:text-[16px]"
+          >
+            Select Colors
+          </h3>
+          <form class="flex items-center xl:gap-[16px] xs:gap-[12px]">
+            <label class="rounded-full flex items-center">
+              <input
+                type="radio"
+                name="color"
+                id="colorRadio"
+                value="#4F4631"
+                class="appearance-none checked:bg-blue-500"
+              />
+              <div
+                class="w-[37px] h-[37px] rounded-full bg-[#4F4631] flex justify-center items-center border border-mainBlack-20 fill-white"
+              >
+                <svg
+                  class="opacity-0 transition-opacity duration-300 ease-out"
+                  width="16"
+                  height="16"
+                  id="checkSvg"
+                >
+                  <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="rounded-full flex items-center">
+              <input
+                type="radio"
+                name="color"
+                id="colorRadio"
+                value="#314F4A"
+                class="appearance-none"
+              />
+              <div
+                class="w-[37px] h-[37px] rounded-full bg-[#314F4A] flex justify-center items-center border border-mainBlack-20 fill-white"
+              >
+                <svg
+                  class="opacity-0 transition-opacity duration-300 ease-out"
+                  width="16"
+                  height="16"
+                  id="checkSvg"
+                >
+                  <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+              </div>
+            </label>
+            <label class="rounded-full flex items-center">
+              <input
+                type="radio"
+                name="color"
+                id="colorRadio"
+                value="#31344F"
+                class="appearance-none"
+              />
+              <div
+                class="w-[37px] h-[37px] rounded-full bg-[#31344F] flex justify-center items-center border border-mainBlack-20 fill-white"
+              >
+                <svg
+                  class="opacity-0 transition-opacity duration-300 ease-out"
+                  width="16"
+                  height="16"
+                  id="checkSvg"
+                >
+                  <use href="./images/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+              </div>
+            </label>
+          </form>
+        </div>
+        <div class="py-[24px] border-b border-mainBlack-100">
+          <h3
+            class="xl:mb-[15px] xs:mb-[12px] text-mainBlack/60 xs:text-[14px] xl:text-[16px]"
+          >
+            Choose Size
+          </h3>
+          <form id="colorForm" class="flex items-center flex-wrap gap-[8px]">
+            <label
+              class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+              id="size"
+            >
+              <input
+                type="radio"
+                name="size"
+                id="sizeRadio"
+                value="XX-Small"
+                class="appearance-none"
+              />
+              <p class="inline opacity-60" id="size">Small</p>
+            </label>
+            <label
+              class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+              id="size"
+            >
+              <input
+                type="radio"
+                name="size"
+                id="sizeRadio"
+                value="XX-Small"
+                class="appearance-none"
+              />
+              <p class="inline opacity-60" id="size">Medium</p>
+            </label>
+            <label
+              class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+              id="size"
+            >
+              <input
+                type="radio"
+                name="size"
+                id="sizeRadio"
+                value="XX-Small"
+                class="appearance-none"
+              />
+              <p class="inline opacity-60" id="size">Large</p>
+            </label>
+            <label
+              class="px-[20px] py-[10px] rounded-[62px] bg-accentGray text-black transition duration-300 ease-out"
+              id="size"
+            >
+              <input
+                type="radio"
+                name="size"
+                id="sizeRadio"
+                value="XX-Small"
+                class="appearance-none"
+                checked
+              />
+              <p class="inline opacity-60" id="size">X-Large</p>
+            </label>
+          </form>
+        </div>
+        <div class="flex items-center justify-between pt-[24px]">
+          <div
+            class="flex items-center justify-center xl:px-[20px] xl:py-[10px] xl:gap-[35px] xs:py-[8px] xs:px-[16px] xs:gap-[12px] rounded-full xl:mr-[20px] xs:mr-[12px] bg-[#F0F0F0]"
+          >
+            <span value="-" id="decrement" class="text-[20px] font-medium"
+              >-</span
+            >
+            <span
+              id="count"
+              class="xs:text-[14px] w-[15px] text-center font-medium"
+              >1</span
+            >
+            <span
+              value="+"
+              id="increment"
+              class="text-[20px] pb-[1px] font-medium"
+              >+</span
+            >
+          </div>
+          <button
+            type="button"
+            class="lg:px-[156px] lg:py-[16px] md:py-[13px] xs:py-[13px] bg-mainBlack xl:text-[16px] rounded-[62px] block hover:opacity-90 text-mainWhite w-full transition duration-300 ease-out"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <section
+        class="section gallery w-full mx-auto lg:py-[80px] md:py-[40px] xs:pt-[50px] xs:pb-[20px]"
+      >
+        <h3
+          class="font-black xl:text-[38px] md:text-[30px] xs:text-[24px] xl:mb-[28px] xs:mb-[19px] lg:ml-[50px] md:ml-[32px] xs:ml-[19px]"
+        >
+          You might also like
+        </h3>
+        <div class="mySwiper w-full overflow-hidden mx-auto">
+          <div class="swiper-wrapper" id="swiper">
+            <!-- <div
+              class="swiper-slide w-full h-full flex justify-center items-center"
+            >
+              <div class="img__wrapper overflow-hidden h-[290px]">
+                <img
+                  class="slider__img mb-30px object-cover w-full h-full block"
+                  src="./images/imagePlaceholder.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="swiper-slide w-full h-full flex justify-center items-center"
+            >
+              <div class="img__wrapper overflow-hidden h-[290px]">
+                <img
+                  class="slider__img mb-30px object-cover w-full h-full block"
+                  src="./images/imagePlaceholder.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="swiper-slide w-full h-full flex justify-center items-center"
+            >
+              <div class="img__wrapper overflow-hidden h-[290px]">
+                <img
+                  class="slider__img mb-30px object-cover w-full h-full block"
+                  src="./images/imagePlaceholder.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="swiper-slide w-full h-full flex justify-center items-center"
+            >
+              <div class="img__wrapper overflow-hidden h-[290px]">
+                <img
+                  class="slider__img mb-30px object-cover w-full h-full block"
+                  src="./images/imagePlaceholder.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="swiper-slide w-full h-full flex justify-center items-center"
+            >
+              <div class="img__wrapper overflow-hidden h-[290px]">
+                <img
+                  class="slider__img mb-30px object-cover w-full h-full block"
+                  src="./images/imagePlaceholder.png"
+                  alt=""
+                />
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
